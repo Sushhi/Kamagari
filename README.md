@@ -9,7 +9,7 @@ Kamagari
 [![Issues](https://img.shields.io/github/issues/tasanobu/Kamagari.svg?style=flat
 )](https://github.com/tasanobu/Kamagari/issues?state=open)
 
-Simple UIAlertController builder class in Swift.
+Simple UIAlertController builder class in Swift 4.2.
 
 ## Features
 - AlertBuilder class to simply build UIAlertController by using method chaining
@@ -48,13 +48,13 @@ The following sample codes shows how to use Kamagari in order to present UIAlert
 
 ## Requirements
 - iOS 8.0+
-- Swift 4.0
-- Xcode 9.0
+- Swift 4.2
+- Xcode 10.x
 
 ## Installation
 - Install with CocoaPods
 ```
-pod 'Kamagari'
+pod 'Kamagari', :git => 'https://github.com/Sushhi/Kamagari', branch: 'master'
 ```
 - Copy in all the files into your project
 - Use git submodule
